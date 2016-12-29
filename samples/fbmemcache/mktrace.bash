@@ -4,7 +4,7 @@
 	-fuzzyThresh 0.5 \
 	-xmin 0 \
 	-xmax 93600 \
-	-ymax 40000 \
+	-ymin 40000 \
 	-ymax 77000 \
 	-onlylongest=true \
 	-longestgap 10 \
