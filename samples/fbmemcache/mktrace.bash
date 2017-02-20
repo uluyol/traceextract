@@ -3,7 +3,7 @@
 	-color "#ff7d00" \
 	-fuzzyThresh 0.5 \
 	-xmin 0 \
-	-xmax 93600 \
+	-xmax 86400 \
 	-ymin 40000 \
 	-ymax 77000 \
 	-onlylongest=true \
