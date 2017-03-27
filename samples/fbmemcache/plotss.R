@@ -3,10 +3,10 @@
 library(scales)
 library(ggplot2)
 
-data <- read.csv(file="24hr-facebook-trace.csv", header=FALSE)
+data <- read.csv(file="subset-facebook-trace.csv", header=FALSE)
 colnames(data) <- c("Time", "QPS")
 data$Time <- data$Time / 3600
-pdf("24hr-facebook-trace.pdf", height=2, width=8)
+pdf("subset-facebook-trace.pdf", height=2, width=8)
 ggplot(data, aes(x=Time, y=QPS)) +
 	geom_line() +
 	xlab("Time (hr)") + 
